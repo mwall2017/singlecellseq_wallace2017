@@ -3,7 +3,7 @@
 These are the files associated with the DropSeq analysis in Wallace et al 2017.
 
 
-raw_data.csv and raw_data.Robj are the rawest forms of the data presented.  They are data from neurons (including some doublets later discarded) from 3101 transcripts with 16484 total genes identified across the population.  
+raw_data.csv and raw_data.Robj are the rawest forms of the data presented.  They are data from neurons (including some doublets later discarded) from 3101 transcripts with 16484 total genes identified across the population. These files are available at Harvard Dataverse: http://dx.doi.org/10.7910/DVN/YPBBA1   
 
 The command
 load('raw_data.Robj') 
@@ -23,4 +23,5 @@ load(‘sub.obj’) loads the R object with 1118 cells that had the highest coun
 TSNEPlot(sub, do.label=T) recreates the TSNE plots shown
 
 run_analysis.R   has sample code to run the analysis from scratch starting with endData
+
 
